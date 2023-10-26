@@ -1,5 +1,9 @@
 body{
     background-color: #646464;
+
+}
+
+main{
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
@@ -86,7 +90,62 @@ body{
 }
 
 
+
+#post1 {
+    animation: appear 5s ease 1s;
+
+}
+
+@keyframes appear {
+   0%   {
+        opacity: 0;
+        
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+#post2 {
+    animation: appear 7s linear;
+    
+}
+
+#post3 {
+    animation: appear 9s linear;
+    
+}
+
+#post4 {
+    animation: appear 11s linear;
+    
+}
+
+#post5 {
+    animation: appear 5s linear;
+    
+}
+
+#post6 {
+    animation: appear 1s linear;
+    
+}
+
+#post7 {
+    animation: appear 1s linear;
+    
+}
+
+#post8 {
+    animation: appear 1s linear;
+    
+}
+
+
+
 #post1:hover {
+
     z-index: 1;
     transform: scale(1.15);
     transition: transform 600ms;
